@@ -24,3 +24,17 @@ git push origin master (origin is your local machine repo whereas master your gi
 This project requires Python 3 and hte requests package.
 
 'python3 find_meteors.py'
+
+pip3 install requests
+
+# Create virtual environment
+pip3 install pipenv
+pipenv --three
+upon successfylly creating a virtual environment, a pipefile will be created
+Pipenv enable us to use the python modules in the environment 
+pipeven run python file_name.py
+
+
+```
+pipenv install
+pipenv run "file_name.py"
